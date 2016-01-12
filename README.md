@@ -8,4 +8,5 @@
 #### PS:
 - The project used venv, requirements file as used libraries in it.
 - The venv was created using python3 : `virtualenv -p python3 venv`
-[FB]:[http://c2.com/cgi/wiki?FizzBuzzTest]
+
+[FB]:http://c2.com/cgi/wiki?FizzBuzzTest
