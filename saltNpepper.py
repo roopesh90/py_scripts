@@ -15,7 +15,7 @@ class SaltNPeppering(object):
 
     def make_input(self, value):
         val = "%s_%s_%s" % (self.PARAM1, value, self.PARAM2)
-        return val
+        return bytearray(val, 'utf-8')
 
     def obscurify(self, value):
         val = self.make_input(value)
