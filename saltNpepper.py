@@ -3,7 +3,7 @@ SaltNPeppering
 @autor: @roopesh90
 Logs:
 -v1.0: get value, make hashable string, obscure string, check string and hash integrity
--v1.0.1: Long integer sample mage int, python3 compatibility issues
+-v1.0.1: Long integer sample made int, python3 compatibility issues
 """
 import os, sys, hashlib
 
