@@ -12,4 +12,5 @@ def check_fizz_buzz(num=0):
 for i in range(1,100):
     print(i)
     IS_FB = check_fizz_buzz(i)
-    print("%s\n" % (IS_FB))
+    if IS_FB != "":
+        print("%s\n" % (IS_FB))
