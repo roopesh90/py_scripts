@@ -3,6 +3,7 @@ SaltNPeppering
 @autor: @roopesh90
 Logs:
 -v1.0: get value, make hashable string, obscure string, check string and hash integrity
+-v1.0.1: Long integer sample mage int, python3 compatibility issues
 """
 import os, sys, hashlib
 
@@ -36,7 +37,7 @@ if __name__ == '__main__':
             print(SaltNPeppering1.obscurify(arg1))
             break
         else:
-            print(SaltNPeppering1.obscurify(1L))
-            print(len(SaltNPeppering1.obscurify(1L)))
-            print(SaltNPeppering1.check_integrity(1L, "27a04b2c5496935c5ec7"))
+            print(SaltNPeppering1.obscurify(1))
+            print(len(SaltNPeppering1.obscurify(1)))
+            print(SaltNPeppering1.check_integrity(1, "27a04b2c5496935c5ec7"))
             #break
