@@ -4,6 +4,9 @@
 ## Scripts inside:
 1. [**FizzBuzz**][FB]
     - Wanted to see if i could do it 3 mins, :D
+2. SaltNPeppering
+    - Takes a string as cmd line input, obsures it and sends returns 20 char long hash
+    - previously coded but not used in any of the projects
 
 
 #### PS:
